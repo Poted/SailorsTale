@@ -1,0 +1,12 @@
+.EmployeeContainer
+{
+    background-color: white;
+}
+
+.table th{
+    height: 4vh;
+}
+
+td {
+    height: 2vh;
+}

@@ -1,0 +1,39 @@
+.player {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    position: relative;
+}
+
+h1 {
+    height: 19vh;
+    margin: 0 0 15vh 0;
+}
+
+.GamePlay {
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+}
+
+.fadeToBlack {
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: -8vh 0 0 -0.8%;
+    
+    opacity: 1;
+}
+
+.fadeFromBlack {
+    
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: -8vh 0 0 -0.8%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 15s ease-out, visibility 12s;
+}

@@ -1,0 +1,21 @@
+
+.gameIntro {
+    opacity: 0;
+}
+
+.gameIntro2 {    
+    transition: opacity 15s ease-out;
+    opacity: 1;
+}
+
+
+iframe {
+    width: 120vw;
+    height: 120vh;
+    position: fixed;
+    z-index: -1;
+    margin: -16vh 0 0 -8vw;
+    pointer-events: none;
+    
+
+}

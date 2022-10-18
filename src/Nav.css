@@ -1,0 +1,22 @@
+.nav-container {
+    border-radius: 20px;
+}
+
+
+.nav {
+    transform: translateY(-100%);
+    width: 97.5vw;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.nav-container:hover  .nav{
+    transform: translateY(0);
+    transition: 0.2s ease-in-out;
+}
+
+.nav-item {
+    border-radius: 20px;
+    margin: 0 4px 0 4px;
+    text-decoration: none;
+}
